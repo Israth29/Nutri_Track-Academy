@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 31, 2025 at 05:46 PM
+-- Generation Time: Jun 18, 2025 at 05:45 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -263,7 +263,8 @@ INSERT INTO `student_record` (`student_id`, `stu_name`, `email`, `department`, `
 ('C223204', 'Ayesha Hasan', 'c223204@ugrad.iiuc.ac.bd', 'CSE', 5, 'VP223211'),
 ('C223206', 'Fayeza Afrah', 'c223206@ugrad.iiuc.ac.bd', 'CSE', 5, 'VP221113'),
 ('C223207', 'Zannatun Naima', 'c223207@ugrad.iiuc.ac.bd', 'CSE', 5, 'VP222601'),
-('C223210', 'Fahmida Yasmin', 'c223210@ugrad.iiuc.ac.bd', 'CSE', 5, 'VP221010');
+('C223210', 'Fahmida Yasmin', 'c223210@ugrad.iiuc.ac.bd', 'CSE', 5, 'VP221010'),
+('C223229', 'Israth Jahan Worthy', 'c223229@ugrad.iiuc.ac.bd', 'CSE', 5, 'VP223229');
 
 -- --------------------------------------------------------
 
@@ -291,7 +292,8 @@ INSERT INTO `stu_info` (`student_id`, `stu_name`, `email`, `password`, `departme
 ('C223204', 'Ayesha Hasan', 'c223204@ugrad.iiuc.ac.bd', '$2y$10$mqz1ugA9551nZZmS3zzp4unE5sFJI02eCfcrL7MlDCL8KV9cf.UVC', 'CSE', 5, 'VP223211', 'MC204211'),
 ('C223206', 'Fayeza Afrah', 'c223206@ugrad.iiuc.ac.bd', '$2y$10$4EsU05CDmzzNalmuhT2kvuTk6DcBLQgAs2eevUoNk0q1ngoF/6ueK', 'CSE', 5, 'VP221113', 'MC206113'),
 ('C223207', 'Zannatun Naima', 'c223207@ugrad.iiuc.ac.bd', '$2y$10$8CHPhDPxwEC54bepsCylHetrtcAHza8kQDMUh4NrEV0iy1H.OCW3C', 'CSE', 5, 'VP222601', 'MC207601'),
-('C223210', 'Fahmida Yasmin', 'c223210@ugrad.iiuc.ac.bd', '$2y$10$O8nwN7qjCeNkRMrUPc2TluLZt9buQQw5k9Oq7nUDZ.pwE192KLQZ.', 'CSE', 5, 'VP221010', 'MC210010');
+('C223210', 'Fahmida Yasmin', 'c223210@ugrad.iiuc.ac.bd', '$2y$10$O8nwN7qjCeNkRMrUPc2TluLZt9buQQw5k9Oq7nUDZ.pwE192KLQZ.', 'CSE', 5, 'VP221010', 'MC210010'),
+('C223229', 'Israth Jahan Worthy', 'c223229@ugrad.iiuc.ac.bd', '$2y$10$cAOIN44kX2jAw.H9LZWrveSKEp0tag6bBDqsjWdXTV0fg/f7wk5.e', 'CSE', 5, 'VP223229', 'MC229229');
 
 --
 -- Indexes for dumped tables
